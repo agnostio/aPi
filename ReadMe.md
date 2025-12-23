@@ -1,0 +1,5 @@
+wget https://github.com/agnostio/aPi/archive/refs/heads/main.zip
+unzip main.zip
+cd aPi-main
+sh install.sh
+cd ../ && rm main.zip && rm -R aPi-main
