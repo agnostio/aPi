@@ -4,7 +4,9 @@ sudo apt install -y zip
 
 sudo apt install -y nmap
 
-sudo apt install -y bpytop
+sudo snap install bpytop
+
+sudo apt install -y unzip
 
 sudo tee -a /boot/firmware/config.txt <<EOF > /dev/null
 dtoverlay=disable-bt
